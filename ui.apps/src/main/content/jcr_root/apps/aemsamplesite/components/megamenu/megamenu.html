@@ -1,0 +1,40 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html"/>
+
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+    data-sly-call="${clientlib.css @ categories='megamenu'}"/>
+
+
+<sly data-sly-use.menumodel="com.adobe.aem.sample.site.core.models.MegaMenuModel"/>
+<sly data-sly-test.menuModelPagesList="${menumodel.megaMenuPagesList}"/>
+<sly data-sly-test.isAuthored="${menuModelPagesList && properties.pagePath}"/>
+<sly data-sly-test="${isAuthored}">
+<div>
+  <h1>Mega Menu Component</h1>
+  <nav>
+    <ul  data-sly-list.menuModel="${menuModelPagesList}">
+      
+      <li>
+        <a href="${menuModel.path}"> ${menuModel.title}</a>
+        <ul data-sly-list.item="${menuModel.childPages}">
+          <li>
+            <a href="${item.path}">${item.title}</a>
+            <ul data-sly-list.item1="${item.childPages}">
+              <li><a href="${item1.path}">${item1.title}</a></li>
+              
+            </ul>
+          </li>
+         
+        </ul>
+      </li>
+
+    </ul>
+  </nav>
+</div>
+</sly>
+
+<sly data-sly-call="${templates.placeholder @ isEmpty = !isAuthored, classAppend='cmp-text'}"></sly>
+
+
+
+

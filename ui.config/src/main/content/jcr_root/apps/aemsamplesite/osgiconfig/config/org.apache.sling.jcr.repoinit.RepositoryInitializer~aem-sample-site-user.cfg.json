@@ -1,0 +1,5 @@
+{
+  "scripts": [
+    "create service user aemsamplesite-service-user\nset ACL on /content/aemsamplesite\nallow jcr:read for aemsamplesite-service-user\nend"
+  ]
+}

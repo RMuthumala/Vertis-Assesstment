@@ -1,0 +1,10 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "jcr:createdBy": "admin",
+  "jcr:lastModifiedBy": "admin",
+  "jcr:created": "Wed Jan 10 2024 12:34:40 GMT+0530",
+  "pagePath": "/content/aemsamplesite/us/en1",
+  "depth": "3",
+  "jcr:lastModified": "Thu Jan 11 2024 16:05:46 GMT+0530",
+  "sling:resourceType": "aemsamplesite/components/megamenu"
+}

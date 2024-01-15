@@ -1,0 +1,608 @@
+{
+  "jcr:primaryType": "cq:Page",
+  "jcr:createdBy": "admin",
+  "jcr:created": "Wed Jan 10 2024 12:16:18 GMT+0530",
+  "jcr:content": {
+    "jcr:primaryType": "cq:PageContent",
+    "jcr:createdBy": "admin",
+    "jcr:title": "en",
+    "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+    "cq:contextHubSegmentsPath": "/etc/segmentation/contexthub",
+    "jcr:created": "Wed Jan 10 2024 12:16:18 GMT+0530",
+    "pageTitle": "AEM Sample Site",
+    "sling:resourceType": "aemsamplesite/components/page",
+    "cq:contextHubPath": "/etc/cloudsettings/default/contexthub",
+    "root": {
+      "jcr:primaryType": "nt:unstructured",
+      "layout": "responsiveGrid",
+      "sling:resourceType": "aemsamplesite/components/container",
+      "container": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "aemsamplesite/components/container",
+        "title": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "aemsamplesite/components/title"
+        },
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "aemsamplesite/components/container",
+          "teaser": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:title": "Epic Journey",
+            "actionsEnabled": "false",
+            "titleFromPage": "false",
+            "jcr:description": "<p>Don't stop half way, go for the top!</p>\r\n",
+            "descriptionFromPage": "false",
+            "sling:resourceType": "aemsamplesite/components/teaser",
+            "textIsRich": "true",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "jcr:primaryType": "nt:unstructured",
+                "offset": "0",
+                "width": "4"
+              }
+            }
+          },
+          "teaser_copy": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:title": "Epic Journey",
+            "actionsEnabled": "false",
+            "titleFromPage": "false",
+            "jcr:description": "<p>Don't stop half way, go for the top!</p>\r\n",
+            "descriptionFromPage": "false",
+            "sling:resourceType": "aemsamplesite/components/teaser",
+            "textIsRich": "true",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "jcr:primaryType": "nt:unstructured",
+                "offset": "0",
+                "width": "4"
+              }
+            }
+          },
+          "teaser_copy_1579324932": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:title": "Epic Journey",
+            "actionsEnabled": "false",
+            "titleFromPage": "false",
+            "jcr:description": "<p>Don't stop half way, go for the top!</p>\r\n",
+            "descriptionFromPage": "false",
+            "sling:resourceType": "aemsamplesite/components/teaser",
+            "textIsRich": "true",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "jcr:primaryType": "nt:unstructured",
+                "offset": "0",
+                "width": "4"
+              }
+            }
+          },
+          "helloworld": {
+            "jcr:primaryType": "nt:unstructured",
+            "text": "lalala :)",
+            "sling:resourceType": "aemsamplesite/components/helloworld"
+          }
+        }
+      }
+    }
+  },
+  "first": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Wed Jan 10 2024 12:21:49 GMT+0530",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "First",
+      "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+      "cq:contextHubSegmentsPath": "/etc/segmentation/contexthub",
+      "jcr:created": "Wed Jan 10 2024 12:21:49 GMT+0530",
+      "cq:lastModified": "Thu Jan 11 2024 18:48:47 GMT+0530",
+      "hideInNav": "true",
+      "sling:resourceType": "aemsamplesite/components/page",
+      "cq:contextHubPath": "/etc/cloudsettings/default/contexthub",
+      "cq:lastModifiedBy": "admin",
+      "navTitle": "First Page",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "layout": "responsiveGrid",
+        "sling:resourceType": "aemsamplesite/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "aemsamplesite/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "aemsamplesite/components/title"
+          },
+          "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container",
+            "megamenu": {
+              "jcr:primaryType": "nt:unstructured",
+              "jcr:createdBy": "admin",
+              "jcr:lastModifiedBy": "admin",
+              "jcr:created": "Wed Jan 10 2024 12:34:40 GMT+0530",
+              "pagePath": "/content/aemsamplesite/us",
+              "jcr:lastModified": "Thu Jan 11 2024 16:05:46 GMT+0530",
+              "sling:resourceType": "aemsamplesite/components/megamenu"
+            },
+            "megamenu_1095149629": {
+              "jcr:primaryType": "nt:unstructured",
+              "jcr:createdBy": "admin",
+              "jcr:lastModifiedBy": "admin",
+              "jcr:created": "Wed Jan 10 2024 20:11:24 GMT+0530",
+              "pagePath": "/content/we-retail/language-masters/en",
+              "jcr:lastModified": "Thu Jan 11 2024 16:06:19 GMT+0530",
+              "sling:resourceType": "aemsamplesite/components/megamenu"
+            }
+          }
+        }
+      },
+      "cq:featuredimage": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:lastModifiedBy": "admin",
+        "jcr:lastModified": "Thu Jan 11 2024 18:48:47 GMT+0530",
+        "sling:resourceType": "core/wcm/components/image/v3/image",
+        "altValueFromDAM": "false"
+      }
+    },
+    "first-child": {
+      "jcr:primaryType": "cq:Page",
+      "jcr:createdBy": "admin",
+      "jcr:created": "Thu Jan 11 2024 17:55:18 GMT+0530",
+      "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:createdBy": "admin",
+        "jcr:title": "First Child",
+        "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+        "jcr:created": "Thu Jan 11 2024 17:55:18 GMT+0530",
+        "cq:lastModified": "Thu Jan 11 2024 17:55:18 GMT+0530",
+        "sling:resourceType": "aemsamplesite/components/page",
+        "cq:lastModifiedBy": "admin",
+        "root": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "aemsamplesite/components/container",
+          "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container",
+            "title": {
+              "jcr:primaryType": "nt:unstructured",
+              "sling:resourceType": "aemsamplesite/components/title"
+            },
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "layout": "responsiveGrid",
+              "sling:resourceType": "aemsamplesite/components/container"
+            }
+          }
+        }
+      },
+      "first-child-depth-3": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Thu Jan 11 2024 17:57:33 GMT+0530",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:createdBy": "admin",
+          "jcr:title": "First Child Depth-3",
+          "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+          "jcr:created": "Thu Jan 11 2024 17:57:33 GMT+0530",
+          "cq:lastModified": "Thu Jan 11 2024 17:57:33 GMT+0530",
+          "sling:resourceType": "aemsamplesite/components/page",
+          "cq:lastModifiedBy": "admin",
+          "root": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container",
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "layout": "responsiveGrid",
+              "sling:resourceType": "aemsamplesite/components/container",
+              "title": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "aemsamplesite/components/title"
+              },
+              "container": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "aemsamplesite/components/container"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "second": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Thu Jan 11 2024 17:54:16 GMT+0530",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Second",
+      "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+      "jcr:created": "Thu Jan 11 2024 17:54:16 GMT+0530",
+      "cq:lastModified": "Thu Jan 11 2024 17:54:16 GMT+0530",
+      "sling:resourceType": "aemsamplesite/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "layout": "responsiveGrid",
+        "sling:resourceType": "aemsamplesite/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "aemsamplesite/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "aemsamplesite/components/title"
+          },
+          "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container"
+          }
+        }
+      }
+    }
+  },
+  "third": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Thu Jan 11 2024 17:54:35 GMT+0530",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Third",
+      "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+      "jcr:created": "Thu Jan 11 2024 17:54:35 GMT+0530",
+      "cq:lastModified": "Thu Jan 11 2024 17:54:35 GMT+0530",
+      "sling:resourceType": "aemsamplesite/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "layout": "responsiveGrid",
+        "sling:resourceType": "aemsamplesite/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "aemsamplesite/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "aemsamplesite/components/title"
+          },
+          "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container"
+          }
+        }
+      }
+    },
+    "depth-2": {
+      "jcr:primaryType": "cq:Page",
+      "jcr:createdBy": "admin",
+      "jcr:created": "Thu Jan 11 2024 17:56:17 GMT+0530",
+      "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Depth-2",
+        "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+        "jcr:created": "Thu Jan 11 2024 17:56:17 GMT+0530",
+        "cq:lastModified": "Thu Jan 11 2024 17:56:17 GMT+0530",
+        "sling:resourceType": "aemsamplesite/components/page",
+        "cq:lastModifiedBy": "admin",
+        "root": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "aemsamplesite/components/container",
+          "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container",
+            "title": {
+              "jcr:primaryType": "nt:unstructured",
+              "sling:resourceType": "aemsamplesite/components/title"
+            },
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "layout": "responsiveGrid",
+              "sling:resourceType": "aemsamplesite/components/container"
+            }
+          }
+        }
+      },
+      "depth-3": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Thu Jan 11 2024 17:56:37 GMT+0530",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:createdBy": "admin",
+          "jcr:title": "Depth-3",
+          "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+          "jcr:created": "Thu Jan 11 2024 17:56:37 GMT+0530",
+          "cq:lastModified": "Thu Jan 11 2024 17:56:37 GMT+0530",
+          "sling:resourceType": "aemsamplesite/components/page",
+          "cq:lastModifiedBy": "admin",
+          "root": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container",
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "layout": "responsiveGrid",
+              "sling:resourceType": "aemsamplesite/components/container",
+              "title": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "aemsamplesite/components/title"
+              },
+              "container": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "aemsamplesite/components/container"
+              }
+            }
+          }
+        },
+        "depth-4": {
+          "jcr:primaryType": "cq:Page",
+          "jcr:createdBy": "admin",
+          "jcr:created": "Thu Jan 11 2024 17:57:02 GMT+0530",
+          "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "jcr:title": "Depth-4",
+            "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+            "jcr:created": "Thu Jan 11 2024 17:57:02 GMT+0530",
+            "cq:lastModified": "Thu Jan 11 2024 17:57:02 GMT+0530",
+            "sling:resourceType": "aemsamplesite/components/page",
+            "cq:lastModifiedBy": "admin",
+            "root": {
+              "jcr:primaryType": "nt:unstructured",
+              "layout": "responsiveGrid",
+              "sling:resourceType": "aemsamplesite/components/container",
+              "container": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "aemsamplesite/components/container",
+                "title": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "sling:resourceType": "aemsamplesite/components/title"
+                },
+                "container": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "layout": "responsiveGrid",
+                  "sling:resourceType": "aemsamplesite/components/container"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "fourth": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Thu Jan 11 2024 17:54:54 GMT+0530",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Fourth",
+      "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+      "jcr:created": "Thu Jan 11 2024 17:54:54 GMT+0530",
+      "cq:lastModified": "Thu Jan 11 2024 17:54:54 GMT+0530",
+      "sling:resourceType": "aemsamplesite/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "layout": "responsiveGrid",
+        "sling:resourceType": "aemsamplesite/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "aemsamplesite/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "aemsamplesite/components/title"
+          },
+          "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container"
+          }
+        }
+      }
+    },
+    "fourth-1": {
+      "jcr:primaryType": "cq:Page",
+      "jcr:createdBy": "admin",
+      "jcr:created": "Thu Jan 11 2024 18:46:01 GMT+0530",
+      "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Fourth-1",
+        "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+        "jcr:created": "Thu Jan 11 2024 18:46:01 GMT+0530",
+        "cq:lastModified": "Thu Jan 11 2024 18:46:01 GMT+0530",
+        "sling:resourceType": "aemsamplesite/components/page",
+        "cq:lastModifiedBy": "admin",
+        "root": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "aemsamplesite/components/container",
+          "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container",
+            "title": {
+              "jcr:primaryType": "nt:unstructured",
+              "sling:resourceType": "aemsamplesite/components/title"
+            },
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "layout": "responsiveGrid",
+              "sling:resourceType": "aemsamplesite/components/container"
+            }
+          }
+        }
+      },
+      "fourth-ii": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Thu Jan 11 2024 18:47:45 GMT+0530",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:createdBy": "admin",
+          "jcr:title": "fourth-II",
+          "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+          "jcr:created": "Thu Jan 11 2024 18:47:45 GMT+0530",
+          "cq:lastModified": "Thu Jan 11 2024 18:47:45 GMT+0530",
+          "sling:resourceType": "aemsamplesite/components/page",
+          "cq:lastModifiedBy": "admin",
+          "root": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container",
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "layout": "responsiveGrid",
+              "sling:resourceType": "aemsamplesite/components/container",
+              "title": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "aemsamplesite/components/title"
+              },
+              "container": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "aemsamplesite/components/container"
+              }
+            }
+          }
+        }
+      },
+      "fourth-iii": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Thu Jan 11 2024 18:48:05 GMT+0530",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:createdBy": "admin",
+          "jcr:title": "Fourth-III",
+          "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+          "jcr:created": "Thu Jan 11 2024 18:48:05 GMT+0530",
+          "cq:lastModified": "Thu Jan 11 2024 18:48:05 GMT+0530",
+          "sling:resourceType": "aemsamplesite/components/page",
+          "cq:lastModifiedBy": "admin",
+          "root": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container",
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "layout": "responsiveGrid",
+              "sling:resourceType": "aemsamplesite/components/container",
+              "title": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "aemsamplesite/components/title"
+              },
+              "container": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "aemsamplesite/components/container"
+              }
+            }
+          }
+        }
+      }
+    },
+    "fourth-3": {
+      "jcr:primaryType": "cq:Page",
+      "jcr:createdBy": "admin",
+      "jcr:created": "Thu Jan 11 2024 18:46:58 GMT+0530",
+      "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Fourth-3",
+        "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+        "hideAllSubpagesInNav": "true",
+        "cq:contextHubSegmentsPath": "/etc/segmentation/contexthub",
+        "jcr:created": "Thu Jan 11 2024 18:46:58 GMT+0530",
+        "cq:lastModified": "Thu Jan 11 2024 18:49:21 GMT+0530",
+        "sling:resourceType": "aemsamplesite/components/page",
+        "cq:contextHubPath": "/etc/cloudsettings/default/contexthub",
+        "cq:lastModifiedBy": "admin",
+        "root": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "aemsamplesite/components/container",
+          "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container",
+            "title": {
+              "jcr:primaryType": "nt:unstructured",
+              "sling:resourceType": "aemsamplesite/components/title"
+            },
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "layout": "responsiveGrid",
+              "sling:resourceType": "aemsamplesite/components/container"
+            }
+          }
+        },
+        "cq:featuredimage": {
+          "jcr:primaryType": "nt:unstructured",
+          "jcr:lastModifiedBy": "admin",
+          "jcr:lastModified": "Thu Jan 11 2024 18:49:21 GMT+0530",
+          "sling:resourceType": "core/wcm/components/image/v3/image",
+          "altValueFromDAM": "true"
+        }
+      },
+      "test": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Thu Jan 11 2024 18:48:26 GMT+0530",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:createdBy": "admin",
+          "jcr:title": "Test",
+          "cq:template": "/conf/aemsamplesite/settings/wcm/templates/page-content",
+          "jcr:created": "Thu Jan 11 2024 18:48:26 GMT+0530",
+          "cq:lastModified": "Thu Jan 11 2024 18:48:26 GMT+0530",
+          "sling:resourceType": "aemsamplesite/components/page",
+          "cq:lastModifiedBy": "admin",
+          "root": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "aemsamplesite/components/container",
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "layout": "responsiveGrid",
+              "sling:resourceType": "aemsamplesite/components/container",
+              "title": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "aemsamplesite/components/title"
+              },
+              "container": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "aemsamplesite/components/container"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
